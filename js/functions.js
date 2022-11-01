@@ -71,7 +71,7 @@ function getPessoaMaiorDeIdade() {
     return pessoasMaior17;
 }
 
-/** QUESTÃO 6 **/
+/** QUESTÃO 7 **/
 function getMediaIdade() {
     var soma = 0.0;
     for (var i = 0; i < pessoas.length; i++) {
