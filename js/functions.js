@@ -81,7 +81,8 @@ $("#adicionar").click(function () {
         //getPessoaByNome('a f');
         //getPessoasNomes();
         //createId();
-        getPessoaMaiorDeIdade();
+        //getPessoaMaiorDeIdade();
+        //getMediaIdade()
     }
 });
 
@@ -125,7 +126,7 @@ function getPessoaMaiorDeIdade() {
             pessoasMaior17.push(item);
         }
     });
-    console.log(pessoasMaior17);
+    //console.log(pessoasMaior17);
     return pessoasMaior17;
 }
 
@@ -136,7 +137,7 @@ function getMediaIdade() {
         soma = soma + parseInt(pessoas[i].age);
     }
     var media = soma / pessoas.length
-    console.log(soma + "/" + pessoas.length);
-    console.log(media);
+    //console.log(soma + "/" + pessoas.length);
+    //console.log(media);
     return media;
 }
